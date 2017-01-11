@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.keys {
+	padding: 1em;	
+}
+
+.key {
+	padding: 0.5em 1em;
+	transition: all .1s;
+	background-color: blueviolet;
+	color: white;
+}
+
+.playing {
+	background-color: tomato;
+	color: white;
+	transition: all .1s;
+	transform: scale(2);
+}
